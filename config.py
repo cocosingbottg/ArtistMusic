@@ -3,12 +3,12 @@
 # All Rights Reserved.
 #
 # Project      : CocoBots API Telegram Music Bot
-# Powered By   : Coco 
+# Powered By   : Coco
 # Type         : API Based Telegram Music Bot
 #
 # Bot          : @ArtistApibot
 # Channel      : https://t.me/artistbots
-# GitHub       : t.me/coconfx
+# DEVELOPER    : t.me/coconfx
 #
 # Unauthorized copying, modification, or redistribution
 # of this source code without permission is prohibited.
