@@ -23,11 +23,11 @@ load_dotenv()
 class Config:
     def __init__(self):
         # Telegram API
-        self.API_ID: int = int(getenv("API_ID", "29308061"))
-        self.API_HASH: str = getenv("API_HASH", "462de3dfc98fd938ef9c6ee31a72d099")
-        self.BOT_TOKEN: str = getenv("BOT_TOKEN", "")
-        self.LOGGER_ID: int = int(getenv("LOGGER_ID", "0"))
-        self.OWNER_ID: int = int(getenv("OWNER_ID", "0"))
+        self.API_ID: int = int(getenv("API_ID", "30096016"))
+        self.API_HASH: str = getenv("API_HASH", "8cb456f70dc9036ec765ae6e2cda04b6")
+        self.BOT_TOKEN: str = getenv("BOT_TOKEN", "8719949724:AAHotB4A12PDjDLSfqwfTOrWYIINTTluktk")
+        self.LOGGER_ID: int = int(getenv("LOGGER_ID", "-1004328150458"))
+        self.OWNER_ID: int = int(getenv("OWNER_ID", "6959456824"))
 
         # Database
         self.MONGO_URL: str = getenv("MONGO_DB_URI", "mongodb+srv://Elevenyts:Elevenyts@cluster0.vuyc1u2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -43,8 +43,8 @@ class Config:
         self.SESSION3: str = getenv("STRING_SESSION3", "")
 
         # Support Links
-        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/Elevenytschats")
-        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/Artistbots")
+        self.SUPPORT_CHANNEL: str = getenv("SUPPORT_CHANNEL", "https://t.me/cocoxpy")
+        self.SUPPORT_CHAT: str = getenv("SUPPORT_CHAT", "https://t.me/coc0chats")
 
         # Excluded Chats
         self.EXCLUDED_CHATS: List[int] = self._parse_excluded_chats()
